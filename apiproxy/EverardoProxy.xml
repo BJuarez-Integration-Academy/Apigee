@@ -1,0 +1,14 @@
+<APIProxy revision="1" name="EverardoProxy">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1702169640706</CreatedAt>
+    <LastModifiedAt>1702170001408</LastModifiedAt>
+    <BasePaths>/everardoproxy</BasePaths>
+    <Policies>
+        <Policy>EV-getNameQueryParam</Policy>
+        <Policy>AM-ResponsePayload</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
