@@ -1,14 +1,15 @@
-<APIProxy revision="1" name="everardoproxy">
+<APIProxy revision="2" name="EverardoProxy">
     <DisplayName></DisplayName>
     <Description></Description>
-    <CreatedAt>1702688211901</CreatedAt>
-    <LastModifiedAt>1702688756355</LastModifiedAt>
+    <CreatedAt>1702693273097</CreatedAt>
+    <LastModifiedAt>1702693273097</LastModifiedAt>
     <BasePaths>/everardoproxy</BasePaths>
     <Policies>
-        <Policy>AM-SetUserResponsePayload</Policy>
         <Policy>AM-ResponsePayload</Policy>
+        <Policy>AM-SetUserResponsePayload</Policy>
         <Policy>EV-getNameQueryParam</Policy>
         <Policy>SC-jsonplaceholcer-users</Policy>
+        <Policy>J2X-Convert</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
