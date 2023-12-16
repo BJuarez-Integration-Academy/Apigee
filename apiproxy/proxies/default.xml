@@ -17,7 +17,7 @@
             <Description>Calling a dummy endpoint</Description>
             <Request>
                 <Step>
-                    <Name>jsonplaceholcer-users</Name>
+                    <Name>SC-jsonplaceholcer-users</Name>
                 </Step>
             </Request>
             <Response>
@@ -30,8 +30,7 @@
     </Flows>
     <PostFlow name="PostFlow">
         <Request/>
-        <Response>
-        </Response>
+        <Response/>
     </PostFlow>
     <HTTPProxyConnection>
         <BasePath>/everardoproxy</BasePath>
